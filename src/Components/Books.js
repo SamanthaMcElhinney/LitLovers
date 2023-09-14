@@ -1,6 +1,5 @@
 import React from "react";
 import Book from "../Components/Book";
-import { Link } from "react-router-dom";
 import "./Books.css";
 
 const Books = ({ booksToDisplay }) => {

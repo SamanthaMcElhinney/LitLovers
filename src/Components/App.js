@@ -19,7 +19,7 @@ const App = () => {
     try {
       setLoading(true);
       const data = await fetchApi(
-        "https://api.nytimes.com/svc/books/v3/lists/full-overview.json?api-key=P1FxjnTWcBFXLSqKd3Cm91Si4tZvOLmN"
+        "https://api.nytimes.com/svc/books/v3/lists/full-overview.json?api-key=E9xtZB07yTZcCOoDRFhWpJmAEhjNMQ2r"
       );
       const books = await cleanData(data);
       setAllBooks(books);
