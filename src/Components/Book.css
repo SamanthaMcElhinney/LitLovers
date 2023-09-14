@@ -1,0 +1,28 @@
+.book-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #56541d;
+  padding: 10px;
+  width: 15vw;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.card-img {
+  height: 40vh;
+  box-shadow: 2px 1px 1px #ccc;
+  margin: 20px;
+}
+
+.card-img:hover {
+  height: 41vh;
+  margin: -1px;
+}
+
+.card-text {
+  font-size: small;
+  font-weight: lighter;
+  overflow-wrap: break-word;
+  text-align: center;
+}

@@ -1,0 +1,83 @@
+.book-container {
+  display: flex;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  justify-content: space-evenly;
+  border-top: 6px solid #ad8354;
+  padding-top: 30px;
+  color: #56541d;
+}
+
+.book-title {
+  text-align: center;
+}
+
+.genre-text {
+  font-size: medium;
+  font-weight: lighter !important;
+}
+
+.book-details {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 40%;
+}
+
+.book-description {
+  width: fit-content;
+  font-weight: lighter;
+}
+
+.stat-container {
+  padding: 2px;
+  border-radius: 10px;
+  overflow-wrap: break-word;
+  width: 12vw;
+  height: 12vh;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.book-stats {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.genre-container {
+  font-weight: bold;
+  border-radius: 15px;
+  padding: 20px;
+  align-self: center;
+}
+
+
+.stat-number {
+  background-color: #56541d;
+  width: 5vw;
+  padding: 12px;
+  margin: 0;
+  border-radius: 45%;
+  margin-top: 10px;
+  font-size: 40px;
+  color: white;
+}
+
+.book-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.buy-button {
+  width: 100%; 
+  padding: 10px;
+  background-color: #ad8354;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
