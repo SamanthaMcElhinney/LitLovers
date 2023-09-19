@@ -1,7 +1,15 @@
+import React from "react";
 import { Link } from "react-router-dom";
 import "./Book.css";
 
-const Book = ({ img, title, author, id }) => {
+interface BookProps {
+  img:string,
+  title: string,
+  author: string,
+  id:string,
+}
+
+const Book: React.FC<BookProps> = ({ img, title, author, id }) => {
   return (
     <Link to={`/book/${id}`} className="book-card">
       <img src={img} className="card-img"></img>

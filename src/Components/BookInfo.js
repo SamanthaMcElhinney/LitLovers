@@ -1,16 +1,20 @@
 import "./BookInfo.css";
 
 const BookInfo = ({ selectedBook }) => {
+    if (!selectedBook) {
+      return <div>Loading...</div>; 
+    }
 
-   const indieBoundLink = selectedBook.buy_links?.find(
-     (link) => link.name === "IndieBound"
-   )?.url;
+    const indieBoundLink = selectedBook.buy_links?.find(
+      (link) => link.name === "IndieBound"
+    )?.url;
 
-   const openIndieBound = () => {
-     if (indieBoundLink) {
-       window.open(indieBoundLink, "_blank");
-     }
-   };
+    const openIndieBound = () => {
+      if (indieBoundLink) {
+        window.open(indieBoundLink, "_blank");
+      }
+    };
+  
   return (
     <div className="book-container">
       <div className="image-button-wrapper">
