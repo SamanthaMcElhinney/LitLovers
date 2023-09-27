@@ -9,10 +9,6 @@
 
 The target user for this application are individuals who are readers with very busy lives, yet want to keep up-to-date with current popular books. I also wanted to support Indepdent book stores, so I created an easy buy link. If the user would like additional information, the user can click on the book cover and be presented with a synposis, current rant, weeks on best seller list, and synopsis. 
 
-### Context
-
-This project was created in three days to apply for **Scribd**.  I wanted to showcase my passion for reading, as well as my experience and knowledge with the technologies specified in the job description.
-
 ### Preview of App
 ![Home-page](https://github.com/SamanthaMcElhinney/LitLovers/assets/115356592/145e5a22-6d2e-4778-9ce8-bfad4140cc79)
 ![Search](https://github.com/SamanthaMcElhinney/LitLovers/assets/115356592/3da31520-0a68-422e-9e85-0de9f1ff69c4)
